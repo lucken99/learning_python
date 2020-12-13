@@ -26,39 +26,6 @@ else:
 	language = [first_lang+'-'+second_lang]
 
 
-# # url = 'https://context.reverso.net/translation/english-french/'
-# # print('Type "en" if you want to translate from French into English, \
-# # 		or "fr" if you want to translate from English into French')
-
-# print("Hello, you're welcome to the translator. Translator supports:")
-# for key, val in languages.items():
-# 	print(f'{key}. {val}')
-# print("Type the number of your language:")
-# try:
-# 	first_lang = languages.get(input().strip()).lower()
-# except:
-# 	print("Enter valid number!")
-
-# print("Type the number of language you want to translate to or '0' tp translate to all languages: ")
-# is_zero = int(input())
-# if is_zero == 0:
-# 	how_many_examples = 1
-# 	second_lang = list(languages.values())
-# else:
-# 	try:
-# 		second_lang = languages.get(str(is_zero)).lower()
-# 	except:
-# 		print("Enter valid number!")
-# if is_zero:
-# 	language = [first_lang+'-'+second_lang]
-# else:
-# 	language = [first_lang+'-'+i.lower() for i in second_lang if i.lower() != first_lang.lower()]
-# # print(language)
-
-
-# print("Type the word you want to translate: ")
-# user_word = input()
-
 
 
 for lang in language:
